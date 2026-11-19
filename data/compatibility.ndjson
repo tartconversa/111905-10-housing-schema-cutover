@@ -1,0 +1,2 @@
+{"compatible": true, "from_version": "v1", "grain": "contract", "metric": "amount", "period": "2026-10", "record_id": "CM1", "to_version": "v2"}
+{"compatible": false, "from_version": "v1", "grain": "contract", "metric": "area", "period": "2026-10", "record_id": "CM2", "to_version": "v2"}

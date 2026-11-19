@@ -1,0 +1,2 @@
+{"consumer": "legacy-study", "kind": "pin", "published_version": "baseline-oct", "received": "2026-11-02", "reference": null, "reference_id": "PIN1"}
+{"consumer": "legacy-study", "kind": "release", "published_version": "baseline-oct", "received": "2026-11-18", "reference": "PIN1", "reference_id": "REL1"}

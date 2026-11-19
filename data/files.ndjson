@@ -1,0 +1,4 @@
+{"city": "A", "contract_version": "v1", "delivery_id": "D-OLD", "file_id": "OLD-A", "period": "2026-10"}
+{"city": "B", "contract_version": "v1", "delivery_id": "D-OLD", "file_id": "OLD-B", "period": "2026-10"}
+{"city": "A", "contract_version": "v2", "delivery_id": "D-NEW", "file_id": "NEW-A1", "period": "2026-10"}
+{"city": "A", "contract_version": "v2", "delivery_id": "D-NEW", "file_id": "NEW-A2", "period": "2026-10"}

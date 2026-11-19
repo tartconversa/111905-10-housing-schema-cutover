@@ -1,0 +1,96 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "contracts": {
+      "description": "语义契约声明",
+      "fields": {
+        "contract_version": "string",
+        "revision": "integer",
+        "grain": "string",
+        "effective_periods": "array",
+        "currency_rule": "string",
+        "area_basis": "string",
+        "received": "string"
+      }
+    },
+    "legacy": {
+      "description": "合同粒度旧记录",
+      "fields": {
+        "file_id": "string",
+        "city": "string",
+        "period": "string",
+        "contract_id": "string",
+        "scope_members": "array",
+        "amount_yuan": "string",
+        "area_sqm": "string"
+      }
+    },
+    "new_rows": {
+      "description": "新格式房屋行",
+      "fields": {
+        "file_id": "string",
+        "city": "string",
+        "period": "string",
+        "contract_id": "string",
+        "unit_id": "string",
+        "price": "object",
+        "area": "object"
+      }
+    },
+    "files": {
+      "description": "交付文件身份",
+      "fields": {
+        "file_id": "string",
+        "contract_version": "string",
+        "delivery_id": "string",
+        "city": "string",
+        "period": "string"
+      }
+    },
+    "deliveries": {
+      "description": "完整交付与范围替代",
+      "fields": {
+        "receipt_id": "string",
+        "delivery_id": "string",
+        "expected_files": "array",
+        "arrived_files": "array",
+        "complete": "boolean",
+        "replacement": "array",
+        "received": "string",
+        "kind": "string"
+      }
+    },
+    "compatibility": {
+      "description": "得到担保的口径兼容关系",
+      "fields": {
+        "record_id": "string",
+        "from_version": "string",
+        "to_version": "string",
+        "metric": "string",
+        "grain": "string",
+        "period": "string",
+        "compatible": "boolean"
+      }
+    },
+    "consumers": {
+      "description": "现有研究的读取契约",
+      "fields": {
+        "consumer": "string",
+        "contract_version": "string",
+        "grain": "string",
+        "metrics": "array"
+      }
+    },
+    "references": {
+      "description": "研究引用及释放",
+      "fields": {
+        "reference_id": "string",
+        "consumer": "string",
+        "published_version": "string",
+        "kind": "string",
+        "received": "string",
+        "reference": "any"
+      }
+    }
+  }
+}

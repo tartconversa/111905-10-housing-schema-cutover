@@ -1,0 +1,53 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "contracts.ndjson",
+      "dataset": "contracts",
+      "rows": 3,
+      "sha256": "56aca7d851bd5fafd9919dc7853e209dac22621673a99d4b8993c67f79045ccc"
+    },
+    {
+      "path": "legacy.ndjson",
+      "dataset": "legacy",
+      "rows": 2,
+      "sha256": "ef81ab17e55699e7a71989c93fefb8d4722239bf452a8920e1d9205801da353d"
+    },
+    {
+      "path": "new_rows.ndjson",
+      "dataset": "new_rows",
+      "rows": 2,
+      "sha256": "4384695087d5994ac9f958e6270f82898369e0b3fe856118de5b022097cd8041"
+    },
+    {
+      "path": "files.ndjson",
+      "dataset": "files",
+      "rows": 4,
+      "sha256": "ce9fcb65a727d9f96572f8090eeeef17cfb1b4ec4d8656d524ebb4decab60b41"
+    },
+    {
+      "path": "deliveries.ndjson",
+      "dataset": "deliveries",
+      "rows": 4,
+      "sha256": "cd766e126c3577041c88c643b41526af21f080219583d2d545818795b82077ae"
+    },
+    {
+      "path": "compatibility.ndjson",
+      "dataset": "compatibility",
+      "rows": 2,
+      "sha256": "7fcf157847208d987847c7a975b243aabb6708af892f0264f4dc05d504c57eb9"
+    },
+    {
+      "path": "consumers.ndjson",
+      "dataset": "consumers",
+      "rows": 2,
+      "sha256": "ae0c24a8bf5eec0d39ad97d74f29b90c6f77c18a8b54896793650052158d3c75"
+    },
+    {
+      "path": "references.ndjson",
+      "dataset": "references",
+      "rows": 2,
+      "sha256": "dc8b468a59d9dd61f48c53006a8daefd537943a07e18ddf9a77f09c2b2561341"
+    }
+  ]
+}

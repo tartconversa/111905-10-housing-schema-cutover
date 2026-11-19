@@ -1,0 +1,2 @@
+{"area": {"basis": "surveyed", "unit": "sqm", "value": "61.20"}, "city": "A", "contract_id": "C1", "file_id": "NEW-A1", "period": "2026-10", "price": {"currency": "CNY", "minor": 2, "value": 70000000}, "unit_id": "U1"}
+{"area": {"basis": "surveyed", "unit": "sqm", "value": "40.80"}, "city": "A", "contract_id": "C1", "file_id": "NEW-A2", "period": "2026-10", "price": {"currency": "CNY", "minor": 2, "value": 50000000}, "unit_id": "U2"}

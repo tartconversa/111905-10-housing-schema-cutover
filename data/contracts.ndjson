@@ -1,0 +1,3 @@
+{"area_basis": "predicted", "contract_version": "v1", "currency_rule": "CNY", "effective_periods": ["2026-10"], "grain": "contract", "received": "2026-10-01", "revision": 1}
+{"area_basis": "surveyed", "contract_version": "v2", "currency_rule": "explicit", "effective_periods": ["2026-10", "2026-11"], "grain": "unit", "received": "2026-11-01", "revision": 1}
+{"area_basis": "surveyed-corrected", "contract_version": "v2", "currency_rule": "explicit", "effective_periods": ["2026-10", "2026-11"], "grain": "unit", "received": "2026-11-12", "revision": 2}

@@ -1,0 +1,4 @@
+{"arrived_files": ["OLD-A", "OLD-B"], "complete": true, "delivery_id": "D-OLD", "expected_files": ["OLD-A", "OLD-B"], "kind": "receipt", "receipt_id": "DC0", "received": "2026-11-01", "replacement": []}
+{"arrived_files": ["NEW-A1"], "complete": false, "delivery_id": "D-NEW", "expected_files": ["NEW-A1", "NEW-A2"], "kind": "receipt", "receipt_id": "DC1", "received": "2026-11-03", "replacement": [{"old_file": "OLD-A", "scope_members": ["U1", "U2"]}]}
+{"arrived_files": ["NEW-A1", "NEW-A2"], "complete": true, "delivery_id": "D-NEW", "expected_files": ["NEW-A1", "NEW-A2"], "kind": "receipt", "receipt_id": "DC2", "received": "2026-11-07", "replacement": [{"old_file": "OLD-A", "scope_members": ["U1", "U2"]}]}
+{"arrived_files": [], "complete": true, "delivery_id": "D-NEW", "expected_files": [], "kind": "withdraw", "receipt_id": "DC3", "received": "2026-11-15", "replacement": []}

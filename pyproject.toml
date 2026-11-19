@@ -1,0 +1,6 @@
+[project]
+name = "housing-schema-cutover"
+version = "0.0.1"
+description = "本地合成资料与仓湖开发环境"
+requires-python = ">=3.11,<3.12"
+dependencies = ["duckdb==1.4.1"]

@@ -1,0 +1,2 @@
+{"consumer": "legacy-study", "contract_version": "v1", "grain": "contract", "metrics": ["amount", "area"]}
+{"consumer": "unit-study", "contract_version": "v2", "grain": "unit", "metrics": ["amount", "area"]}
